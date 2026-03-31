@@ -13,6 +13,8 @@ using namespace std;
 // this code will be executed first when the program runs
 int main(){
     // This statement prints "Hello, World!" to the console
-    cout << "Hello, World!"; //cout is the output statement in C++
+    // cout is the output statement in C++
+    // endl is used to insert a new line after the output, use \n for faster
+    cout << "Hello, World!"<< "My Name is Ruchira. \nIt is a pleasure to meet you."<< endl; 
     return 0; //return indicates the exit status where 0 is success
 }
