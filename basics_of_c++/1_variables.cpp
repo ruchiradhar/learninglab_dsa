@@ -2,6 +2,7 @@
 using namespace std;
 
 // following shows variables with primitive data types in C++ and their sizes in bytes
+// use camelCase for variable names in C++
 int main(){
     int age=25; // declare variable integer, space 4 bytes
     char grade= 'A'; // declare variable character, space 1 byte
