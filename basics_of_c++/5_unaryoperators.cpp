@@ -4,7 +4,7 @@ int main()
 {
     // Unary Operators: ++, --
     // Output datatype is always datatype of operand
-    // ++a is update then assign, a++ is assign then update
+    // ++a is update then assign (pre-increment), a++ is assign then update (post-increment)
     int a=5;
     cout<<"Value of a before increment: " << a << endl;
     int b= ++a; // Pre-increment

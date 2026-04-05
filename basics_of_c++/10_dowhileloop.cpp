@@ -2,6 +2,7 @@
 using namespace std;
 
 // print 1 to n using do-while loop
+// do-while loop executes block of code once and then checks conditions
 int main()
 {
     int n= 20;
