@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a=20, b=10;
+    int a=4, b=8;
 
     // Arithmetic Operators: +, -, *, /, %
     // Output datatype is always datatype of operands
@@ -27,6 +27,15 @@ int main()
     cout<<"Logical AND of x and y: " << (x && y) << endl;
     cout<<"Logical OR of x and y: " << (x || y) << endl;
     cout<<"Logical NOT of x: " << (!x) << endl;
+
+    // Bitwise Operators: &, |, ^, ~, <<, >>
+    // Output datatype is always same as operands
+    cout<<"Bitwise AND of a and b: "<< (a&b) << endl;
+    cout<<"Bitwise OR of a and b: "<< (a|b) << endl;
+    cout<<"Bitwise XOR of a and b: "<< (a^b) << endl;
+    cout<<"Bitwise NOT of a: "<< (~a) << endl;
+    cout<<"Left shift a by 1: "<< (a<<1) << endl;
+    cout<<"Right shift a by 1: "<< (a>>1) << endl;
     
 
 
