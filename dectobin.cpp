@@ -21,6 +21,6 @@ int decToBinary(int decNum){
 
 int main()
 {
-    cout<<"The binary of 6 is "<<decToBinary(6)<<endl;
+    cout<<"The binary of 1 is "<<decToBinary(1)<<endl;
     return 0;
 }
