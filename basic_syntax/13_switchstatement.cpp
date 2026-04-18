@@ -10,6 +10,6 @@ using namespace std;
         cout<<"The value of x is 2"<<endl;
         break;
         default: // default is optional, executed when all cases are false
-        cout<<"The value of x is not 1,2 or 3"<<endl;
+        cout<<"The value of x is not 1 or 2"<<endl;
     }
  }
