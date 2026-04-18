@@ -10,7 +10,7 @@ int decToBinary(int decNum){
         int biNum= decNum%2;
         decNum=decNum/2;
 
-        ans= biNum*power;
+        ans+= biNum*power;
         power= power*10;
     }
 
@@ -21,6 +21,6 @@ int decToBinary(int decNum){
 
 int main()
 {
-    cout<<"The binary of 1 is "<<decToBinary(1)<<endl;
+    cout<<"The binary of 12 is "<<decToBinary(12)<<endl;
     return 0;
 }
